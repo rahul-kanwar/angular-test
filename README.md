@@ -1,2 +1,2 @@
-# angular-test
-Test repo for Angular
+# Coursera Web assignments
+Web Solutions for Coursera SPA course
