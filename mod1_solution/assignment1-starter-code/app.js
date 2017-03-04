@@ -10,7 +10,7 @@
 
       function LunchCheckController($scope){
         //  console.log($scope.input);
-        $scope.message="";
+        $scope.message="";  
         $scope.checkItems = function(){
 
           if($scope.input == "" || $scope.input == null){
