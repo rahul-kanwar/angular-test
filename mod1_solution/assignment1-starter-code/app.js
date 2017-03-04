@@ -9,8 +9,7 @@
     LunchCheckController.$inject = ['$scope'];
 
       function LunchCheckController($scope){
-        // $scope.label = "Rahul";
-        console.log($scope.input);
+        //  console.log($scope.input);
         $scope.checkItems = function(){
 
           if($scope.input == "" || $scope.input == null){
