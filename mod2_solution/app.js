@@ -45,7 +45,7 @@ function ShoppingListCheckOffService(){
           quantity : 4
           },
           {
-          name : "candies",
+          name : "muffins",
           quantity : 20
           }
     ];
