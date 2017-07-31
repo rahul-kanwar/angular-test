@@ -9,13 +9,9 @@
 
 ToBuyController.$inject = ['ShoppingListCheckOffService'];
 function ToBuyController(ShoppingListCheckOffService){
-
   var list = this;
-  // list.itemName = "";
-  // list.itemQuantity = "";
 
   list.toBuyList = ShoppingListCheckOffService.getBuyItems();
-
   list.purchased = function(itemIndex){
     ShoppingListCheckOffService.purchased(itemIndex);
   }
@@ -23,20 +19,14 @@ function ToBuyController(ShoppingListCheckOffService){
 
 AlreadyBoughtController.$inject = ['ShoppingListCheckOffService'];
 function AlreadyBoughtController(ShoppingListCheckOffService){
-
   var list = this;
-  // list.itemName = "";
-  // list.itemQuantity = "";
 
   list.toBoughtList = ShoppingListCheckOffService.getBoughtItems();
-
 }
 
 function ShoppingListCheckOffService(){
     var service = this;
-
     var boughtItems = [];
-
     var buyItems = [
           {
           name : "cookies",
